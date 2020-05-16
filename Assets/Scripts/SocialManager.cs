@@ -28,7 +28,7 @@ namespace SocialConnector{
 
 		public void PushSocial(){
             Debug.Log("social");
-			string text = "【英検準2級の英単語】\n iPhone : https://apple.co/3cttNLz \n Android : https://bit.ly/3dJhvin \n #HorryApps";
+			string text = "【高校入試に出る英単語】\n iPhone : https://apple.co/2X5ieUx \n Android : https://bit.ly/2y4A0P0 \n #HorryApps";
 			string url = "";
 			string path = Application.streamingAssetsPath + "/SNS.png";
 			SocialConnector.Share(text, url, path);

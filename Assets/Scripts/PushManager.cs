@@ -22,7 +22,7 @@ public class PushManager : MonoBehaviour {
 
     private int[] lessonCount = { 33, 26, 27, 35, 39 };
 
-    private string appName = "英検準2級の英単語";
+    private string appName = "高校入試に出る英単語";
 
     void Awake() {
         if (instance == null) {
@@ -39,7 +39,7 @@ public class PushManager : MonoBehaviour {
 
     // Use this for initialization
     void Start() {
-
+                
     }
 
     void SetMessegaList() {
@@ -62,10 +62,12 @@ public class PushManager : MonoBehaviour {
             totalLessonCount += (lessonCount[i] * 10);
         }
 
+        Debug.Log((totalLessonCount / 10));
+
         //messageList.Add("継続日数 " + continuedDays + "日目!!");
-        messageList.Add("単語を制すものは英検を制す、ですよ!!");
+        messageList.Add("単語を制すものは入試を制す、ですよ!!");
         if (clearLessonCount != 0) {
-            messageList.Add(clearLessonCount + "/" + lessonCount + "Lessons clear!!");
+            messageList.Add(clearLessonCount + "/" + (totalLessonCount / 10) + "Lessons clear!!");
         }
         if (clearLessonCount < totalLessonCount) {
             messageList.Add("Let's challenge lesson" + (clearLessonCount + 1) + "!!");

@@ -117,11 +117,11 @@ public class MenuManager : MonoBehaviour {
             buttonReview.transform.DOScale(1.0f, 0.1f)
             .OnComplete(() => {
                 if (Application.platform == RuntimePlatform.Android) {
-			        Application.OpenURL ("https://play.google.com/store/apps/details?id=com.gevvoihorry.EnglishTestLevelSemiTwo");
+			        Application.OpenURL ("https://play.google.com/store/apps/details?id=com.gevvoihorry.EnglishWordsHigh");
 		        } else if (Application.platform == RuntimePlatform.IPhonePlayer) {
-			        Application.OpenURL ("https://apps.apple.com/jp/app/id1513455662?mt=8&action=write-review");
+			        Application.OpenURL ("https://apps.apple.com/jp/app/id1513711485?mt=8&action=write-review");
 		        } else {
-			        Application.OpenURL ("https://apps.apple.com/jp/app/id1513455662?mt=8&action=write-review");
+			        Application.OpenURL ("https://apps.apple.com/jp/app/id1513711485?mt=8&action=write-review");
 		        }
             })
         );
@@ -136,11 +136,11 @@ public class MenuManager : MonoBehaviour {
             buttonMenuReview.transform.DOScale(1.0f, 0.1f)
             .OnComplete(() => {
                 if (Application.platform == RuntimePlatform.Android) {
-			        Application.OpenURL ("https://play.google.com/store/apps/details?id=com.gevvoihorry.EnglishTestLevelSemiTwo");
+			        Application.OpenURL ("https://play.google.com/store/apps/details?id=com.gevvoihorry.EnglishWordsHigh");
 		        } else if (Application.platform == RuntimePlatform.IPhonePlayer) {
-			        Application.OpenURL ("https://apps.apple.com/jp/app/id1513455662?mt=8&action=write-review");
+			        Application.OpenURL ("https://apps.apple.com/jp/app/id1513711485?mt=8&action=write-review");
 		        } else {
-			        Application.OpenURL ("https://apps.apple.com/jp/app/id1513455662?mt=8&action=write-review");
+			        Application.OpenURL ("https://apps.apple.com/jp/app/id1513711485?mt=8&action=write-review");
 		        }
             })
         );
