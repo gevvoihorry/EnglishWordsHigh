@@ -4,5 +4,44 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/TitleScene.unity
+    guid: ed4f1c71fa2454c40adce30fa09a2554
+  - enabled: 1
+    path: Assets/Scenes/DebugScene.unity
+    guid: c676c49efbfc446f9bae970c344333e8
+  - enabled: 1
+    path: Assets/Scenes/JudgeScene.unity
+    guid: d5207fce86613411c971b5ae2e58d513
+  - enabled: 1
+    path: Assets/Scenes/LessonSelectScene.unity
+    guid: 849d62013c385407096aa63a3060d45c
+  - enabled: 1
+    path: Assets/Scenes/ResultScene.unity
+    guid: fedd1c390ea22407f956e4a4b204b8b0
+  - enabled: 1
+    path: Assets/Scenes/ReviewScene.unity
+    guid: d9344519cbc04452ba8429630e84dd85
+  - enabled: 1
+    path: Assets/Scenes/ScoreScene.unity
+    guid: 7b397c5b11f144629943c0ca20f0effb
+  - enabled: 1
+    path: Assets/Scenes/SelectKindScene.unity
+    guid: 5baa8973ff0dd4b1197cf583e49c0ef7
+  - enabled: 1
+    path: Assets/Scenes/SelectScene.unity
+    guid: 5a3a8702caad649b0b9bdfc9741acbff
+  - enabled: 1
+    path: Assets/Scenes/StudyScene.unity
+    guid: 39c9893f5ca9b4408986a3e3d42eb73e
+  - enabled: 1
+    path: Assets/Scenes/TestReadyScene.unity
+    guid: 1301b0e3f4fdc49888ae2e083058791b
+  - enabled: 1
+    path: Assets/Scenes/TestScene.unity
+    guid: 4810cb20243e140ef891ed3f186a671d
+  - enabled: 1
+    path: Assets/Scenes/TestSelectScene.unity
+    guid: ee3b6ad665a08467c904028fa7bbacb6
   m_configObjects: {}
