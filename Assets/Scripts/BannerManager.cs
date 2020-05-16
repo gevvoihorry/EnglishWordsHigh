@@ -50,10 +50,10 @@ public class BannerManager : MonoBehaviour {
 		string adUnitId = "unused";
         #elif UNITY_ANDROID
 		string adUnitId = "ca-app-pub-3940256099942544/6300978111"; //test
-		//string adUnitId = "ca-app-pub-2998875168668037/9015939263";
+		//string adUnitId = "ca-app-pub-2998875168668037/4364842847";
         #elif UNITY_IOS
 		string adUnitId = "ca-app-pub-3940256099942544/2934735716"; //test
-		//string adUnitId = "ca-app-pub-2998875168668037/2064900994";
+		//string adUnitId = "ca-app-pub-2998875168668037/4173271159";
         #else
 		string adUnitId = "unexpected_platform";
         #endif

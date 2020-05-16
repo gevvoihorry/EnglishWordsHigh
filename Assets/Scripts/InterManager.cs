@@ -39,10 +39,10 @@ public class InterManager : MonoBehaviour {
 		string adUnitId = "unused";
 		#elif UNITY_ANDROID
 		string adUnitId = "ca-app-pub-3940256099942544/1033173712"; //test
-		//string adUnitId = "ca-app-pub-2998875168668037/4691064334";
+		//string adUnitId = "ca-app-pub-2998875168668037/8112516167";
 		#elif UNITY_IOS
 		string adUnitId = "ca-app-pub-3940256099942544/4411468910"; //test
-		//string adUnitId = "ca-app-pub-2998875168668037/4530092861";
+		//string adUnitId = "ca-app-pub-2998875168668037/9234026147";
 		#else
 		string adUnitId = "unexpected_platform";
 		#endif
