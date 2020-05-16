@@ -9,10 +9,10 @@ public class SelectKindManager : MonoBehaviour {
     public GameObject buttonBack;
     //public GameObject buttonTop;
 
-    public GameObject[] imageClear = new GameObject[3];
+    public GameObject[] imageClear = new GameObject[5];
 
     private int[] lessonCount = { 29, 43, 31 };
-    private int[] clearLessonCount = new int[3];
+    private int[] clearLessonCount = new int[5];
 
     void Awake() {
 
