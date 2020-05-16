@@ -21,7 +21,7 @@ public class ScoreManager : MonoBehaviour {
     private int proReadTestScore = 0;
     private int proWriteTestScore = 0;
 
-    private int[] lessonCount = { 29, 43, 31 };
+    private int[] lessonCount = { 33, 26, 27, 35, 39 };
 
     private int totalLessonCount;
 

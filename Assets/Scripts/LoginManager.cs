@@ -27,7 +27,7 @@ public class LoginManager : MonoBehaviour　{
     private bool nextFlg = false; //日付が経過したかどうかを判定するフラグ。
     private bool updatingFlg = false; //更新中かどうかを判定するフラグ
 
-    private int[] lessonCount = { 29, 43, 31 };
+    private int[] lessonCount = { 33, 26, 27, 35, 39 };
 
     private int totalLessonCount;
 

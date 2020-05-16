@@ -11,7 +11,7 @@ public class SelectKindManager : MonoBehaviour {
 
     public GameObject[] imageClear = new GameObject[5];
 
-    private int[] lessonCount = { 29, 43, 31 };
+    private int[] lessonCount = { 33, 26, 27, 35, 39 };
     private int[] clearLessonCount = new int[5];
 
     void Awake() {

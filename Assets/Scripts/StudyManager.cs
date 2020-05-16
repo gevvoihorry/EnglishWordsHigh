@@ -29,7 +29,7 @@ public class StudyManager : MonoBehaviour {
     private int score = 0;
     private int testFlg = 0;
 
-    private int[] lessonCount = { 29, 43, 31 };
+    private int[] lessonCount = { 33, 26, 27, 35, 39 };
 
     private string spell = "";
 

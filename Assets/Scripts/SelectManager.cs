@@ -13,7 +13,7 @@ public class SelectManager : MonoBehaviour {
     public GameObject textPage;
     public GameObject buttonBack;
 
-    private int[] lessonCount = { 29, 43, 31 };
+    private int[] lessonCount = { 33, 26, 27, 35, 39 };
 
     private int select = 0;
     private int lesson = 0;

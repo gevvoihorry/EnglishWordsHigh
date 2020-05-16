@@ -20,7 +20,7 @@ public class PushManager : MonoBehaviour {
 
     private int continuedDays = 0;
 
-    private int[] lessonCount = { 29, 43, 31 };
+    private int[] lessonCount = { 33, 26, 27, 35, 39 };
 
     private string appName = "英検準2級の英単語";
 
