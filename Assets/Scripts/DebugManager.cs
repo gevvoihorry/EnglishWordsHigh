@@ -5,7 +5,7 @@ using UnityEngine.SceneManagement;
 
 public class DebugManager : MonoBehaviour {
 
-        private int[] lessonCount = { 29, 43, 31 };
+        private int[] lessonCount = { 33, 26, 27, 35, 39 };
 
     // Start is called before the first frame update
     void Start() {
@@ -13,12 +13,12 @@ public class DebugManager : MonoBehaviour {
 
         //PlayerPrefs.SetInt("FIRST_PLAY", 1);
 
-        for (int i = 0; i < lessonCount.Length; i++) {
-            for (int n = 0; n < lessonCount[i]; n++) {
-                PlayerPrefs.SetInt("READ_TEST_SCORE" + i + "_" + n, 80);
-                PlayerPrefs.SetInt("WRITE_TEST_SCORE" + i + "_" + n, 90); 
-            }
-        }
+        //for (int i = 0; i < lessonCount.Length; i++) {
+        //    for (int n = 0; n < lessonCount[i]; n++) {
+        //        PlayerPrefs.SetInt("READ_TEST_SCORE" + i + "_" + n, 80);
+        //        PlayerPrefs.SetInt("WRITE_TEST_SCORE" + i + "_" + n, 90); 
+        //    }
+        //}
 
         //for (int i = 0; i < lessonCount; i++) {
         //    if (i < 20) {

@@ -39,7 +39,7 @@ public class LessonSelectManager : MonoBehaviour {
     }
 
     void DisplayTextTitle() {
-        textTitle[0].GetComponent<Text>().text = "SELECT" + (select + 1);
+        textTitle[0].GetComponent<Text>().text = "LEVEL" + (select + 1);
         textTitle[1].GetComponent<Text>().text = "LESSON" + (lesson + 1);
     }
 

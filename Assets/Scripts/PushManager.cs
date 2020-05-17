@@ -62,8 +62,6 @@ public class PushManager : MonoBehaviour {
             totalLessonCount += (lessonCount[i] * 10);
         }
 
-        Debug.Log((totalLessonCount / 10));
-
         //messageList.Add("継続日数 " + continuedDays + "日目!!");
         messageList.Add("単語を制すものは入試を制す、ですよ!!");
         if (clearLessonCount != 0) {

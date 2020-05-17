@@ -37,6 +37,9 @@ public class MessageManager : MonoBehaviour {
         if (SceneManager.GetActiveScene().name == "TitleScene") {
             saveKey = "TITLE_TUTORIAL";
             messageList.Add("「勉強」ボタンを押して、レッスンを開始しましょう。");
+        } else if (SceneManager.GetActiveScene().name == "SelectKindScene") {
+            saveKey = "SELECT_KIND_TUTORIAL";
+            messageList.Add("公立高校ないし中堅私立を受験される方は、LEVEL１〜３をお選びください。難関私立を受験される方はLEVEL４〜５にも挑戦してみましょう。");
         } else if (SceneManager.GetActiveScene().name == "SelectScene") {
             saveKey = "SELECT_TUTORIAL";
             messageList.Add("各レッスン内にある小テストに合格（80点以上）すると、次のレッスンへ進めるようになります。");
