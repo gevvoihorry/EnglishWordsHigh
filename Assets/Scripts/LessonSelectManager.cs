@@ -46,19 +46,19 @@ public class LessonSelectManager : MonoBehaviour {
     void DisplayTestScore() {
         textReadTestScore.GetComponent<Text>().text = readTestScore + " / 100点";
         if (readTestScore >= 80) {
-            imageScoreWindow[0].GetComponent<Image>().color = new Color(5.0f / 255.0f, 148.0f / 255.0f, 77.0f / 255.0f, 255.0f / 255.0f);
+            imageScoreWindow[0].GetComponent<Image>().color = new Color(0.0f / 255.0f, 64.0f / 255.0f, 48.0f / 255.0f, 255.0f / 255.0f);
             textReadTestScore.GetComponent<Text>().color = Color.white;
         } else {
-            imageScoreWindow[0].GetComponent<Image>().color = new Color(118.0f / 255.0f, 247.0f / 255.0f, 160.0f / 255.0f, 255.0f / 255.0f);
+            imageScoreWindow[0].GetComponent<Image>().color = Color.white;
             textReadTestScore.GetComponent<Text>().color = Color.black;
         }
 
         textWriteTestScore.GetComponent<Text>().text = writeTestScore + " / 100点";
         if (writeTestScore >= 80) {
-            imageScoreWindow[1].GetComponent<Image>().color = new Color(5.0f / 255.0f, 148.0f / 255.0f, 77.0f / 255.0f, 255.0f / 255.0f);
+            imageScoreWindow[1].GetComponent<Image>().color = new Color(0.0f / 255.0f, 64.0f / 255.0f, 48.0f / 255.0f, 255.0f / 255.0f);
             textWriteTestScore.GetComponent<Text>().color = Color.white;
         } else {
-            imageScoreWindow[1].GetComponent<Image>().color = new Color(118.0f / 255.0f, 247.0f / 255.0f, 160.0f / 255.0f, 255.0f / 255.0f);
+            imageScoreWindow[1].GetComponent<Image>().color = Color.white;
             textWriteTestScore.GetComponent<Text>().color = Color.black;
         }
     }
