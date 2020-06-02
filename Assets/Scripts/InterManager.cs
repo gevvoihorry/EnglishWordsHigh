@@ -38,11 +38,11 @@ public class InterManager : MonoBehaviour {
 		#if UNITY_EDITOR
 		string adUnitId = "unused";
 		#elif UNITY_ANDROID
-		string adUnitId = "ca-app-pub-3940256099942544/1033173712"; //test
-		//string adUnitId = "ca-app-pub-2998875168668037/8112516167";
+		//string adUnitId = "ca-app-pub-3940256099942544/1033173712"; //test
+		string adUnitId = "ca-app-pub-2998875168668037/8112516167";
 		#elif UNITY_IOS
-		string adUnitId = "ca-app-pub-3940256099942544/4411468910"; //test
-		//string adUnitId = "ca-app-pub-2998875168668037/9234026147";
+		//string adUnitId = "ca-app-pub-3940256099942544/4411468910"; //test
+		string adUnitId = "ca-app-pub-2998875168668037/9234026147";
 		#else
 		string adUnitId = "unexpected_platform";
 		#endif

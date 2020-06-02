@@ -49,11 +49,11 @@ public class RectangleManager : MonoBehaviour {
 		#if UNITY_EDITOR
 		string adUnitId = "unused";
 		#elif UNITY_ANDROID
-		string adUnitId = "ca-app-pub-3940256099942544/6300978111"; //test
-		//string adUnitId = "ca-app-pub-2998875168668037/3051761172";
+		//string adUnitId = "ca-app-pub-3940256099942544/6300978111"; //test
+		string adUnitId = "ca-app-pub-2998875168668037/3051761172";
 		#elif UNITY_IOS
-		string adUnitId = "ca-app-pub-3940256099942544/2934735716"; //test
-		//string adUnitId = "ca-app-pub-2998875168668037/1547107811";
+		//string adUnitId = "ca-app-pub-3940256099942544/2934735716"; //test
+		string adUnitId = "ca-app-pub-2998875168668037/1547107811";
 		#else
 		string adUnitId = "unexpected_platform";
 		#endif
